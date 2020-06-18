@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>THREE.JS </title>
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+    <style>
+        body { margin: 0; }
+        canvas { width: 96%; height: 96%; z-index: 0; };
+        #info {
+            position: absolute;
+            /* margin-top: 100px;
+            margin-left: 100px;
+            top: 130px; */
+            /* width: 100%;
+            text-align: center;
+            z-index: 1000;
+            display:block; */
+        }
+        h1{
+            font-family: 'Bangers',cursive;
+        }
+        h2{
+            font-family:'Courier New', Courier, monospace;
+        }
+    </style>
+    <script type="text/javascript" src="three.min.js"></script>
+    
+    <script type="text/javascript" src="demo.js"></script></scipt>
+    <script type="text/javascript" src="MTLLoader.js"></script>
+    <script type="text/javascript" src="OBJLoader.js"></script>
+    <script type="text/javascript" src="GLTFLoader.js"> </script>
+    <script type="text/javascript" src="physi.js"> </script>
+    <script src="./libs/OrbitControls.js"></script>
+    <!-- <script type="text/javascript" src="./libs/stats.js"></script>
+    <script type="text/javascript" src="./libs/dat.gui.js"></script> -->
+    <script type="text/javascript" src="./libs/chroma.js"></script>
+    <script type="text/javascript" src="./libs/FirstPersonControls.js"></script>
+    <script type="text/javascript" src="PointerLockControls.js"></script>
+</head>
+<body>
+    <h1 id="info" style="margin-top: 10px;margin-left: 10px;height: 0px; z-index: 100;position: absolute;display: block;"></h1>
+    <h1 id="health" style="margin-top: 10px;margin-left: 600px;height: 0px; z-index: 100;position: absolute;display: block;">hungry</h1>
+    <h1 id="info3" style="margin-top: 50px;margin-left: 10px;height: 0px; z-index: 100;position: absolute;display: block;"></h1>
+    <h1 id="info4" style="margin-top: 100px;margin-left: 10px;height: 0px; z-index: 100;position: absolute;display: block;"></h1>
+    <h1 id="info2" style="color: aqua;margin-top: 400px;margin-left: 600px;height: 0px; z-index: 100;position: absolute;display: block;"></h1>
+    <h1 id="info5" style="color: aqua;margin-top: 400px;margin-left: 600px;height: 0px; z-index: 100;position: absolute;display: block;"></h1>
+    <h1 id="info6" style="color: aqua;margin-top: 400px;margin-left: 600px;height: 0px; z-index: 100;position: absolute;display: block;"></h1>
+    <h1 id="info7" style="color: aqua;margin-top: 400px;margin-left: 600px;height: 0px; z-index: 100;position: absolute;display: block;"></h1>
+    <h2 id="bar1info" style="margin-top: 10px;margin-left: 1120px;height: 0px; z-index: 100;position: absolute;display: block;">gravity</h2>
+    <input type="range" name="points" min="0" max="10" id="bar1" style="margin-top: 25px;margin-left: 1200px;height: 0px; z-index: 100;position: absolute;display: block;text-align: right;">
+    <h2 id="bar2info" style="margin-top: 40px;margin-left: 1120px;height: 0px; z-index: 100;position: absolute;display: block;">power</h2>
+    <input type="range" name="points" min="0" max="10" id="bar2" style="margin-top: 55px;margin-left: 1200px;height: 0px; z-index: 100;position: absolute;display: block;text-align: right;">
+    <h2 id="bar3info" style="margin-top: 80px;margin-left: 1120px;height: 0px; z-index: 100;position: absolute;display: block;">time speed</h2>
+    <input type="range" name="points" min="0" max="10" id="bar3" style="margin-top: 85px;margin-left: 1200px;height: 0px; z-index: 100;position: absolute;display: block;text-align: right;">
+
+</body>
+</html>

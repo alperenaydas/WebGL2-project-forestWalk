@@ -1,0 +1,16 @@
+# Wavefront material library
+# Tue Aug 03 07:54:49 1999
+# Created with Viewpoint Interchange www.viewpoint.com
+
+newmtl swan_body
+  Ka 0 0 0
+  Kd 0 0 0
+  Ks 0 0 0
+  illum 2
+  map_Kd images\swan.tif
+
+newmtl swan_eye
+  Ka 0 0 0
+  Kd 0 0 0
+  Ks 0 0 0
+  illum 2

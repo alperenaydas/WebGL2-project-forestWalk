@@ -1,0 +1,48 @@
+# Wavefront material library
+# Tue Aug 03 07:57:45 1999
+# Created with Viewpoint Interchange www.viewpoint.com
+
+newmtl stth_mouth
+  Ka 0 0 0
+  Kd 0.694118 0.564706 0.505882
+  Ks 0.694118 0.564706 0.505882
+  illum 2
+
+newmtl stth_teeth
+  Ka 0 0 0
+  Kd 0.847059 0.811765 0.74902
+  Ks 0.847059 0.811765 0.74902
+  illum 2
+
+newmtl stth_body
+  Ka 0 0 0
+  Kd 0 0 0
+  Ks 0 0 0
+  illum 2
+  map_Kd images\sabtooth.TIF
+
+newmtl stth_vibrissa
+  Ka 0 0 0
+  Kd 0.784314 0.784314 0.784314
+  Ks 0.784314 0.784314 0.784314
+  illum 2
+
+newmtl stth_rIris
+  Ka 0 0 0
+  Kd 0 0 0
+  Ks 0 0 0
+  illum 2
+  map_Kd images\eye_brn3.tif
+
+newmtl stth_eye
+  Ka 0 0 0
+  Kd 0.392157 0.352941 0.352941
+  Ks 0.392157 0.352941 0.352941
+  illum 2
+
+newmtl stth_lIris
+  Ka 0 0 0
+  Kd 0 0 0
+  Ks 0 0 0
+  illum 2
+  map_Kd images\eye_brn3.tif

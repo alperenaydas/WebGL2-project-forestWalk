@@ -1,0 +1,26 @@
+# Blender MTL File: 'Stone_Axe.blend'
+# Material Count: 2
+
+newmtl Material.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\Blender\Models\TEXTURE\Dock_and_Bridge.png
+map_Bump Texture.png
+
+newmtl Material.002_Texture.png
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Texture.png
+map_Bump Texture.png
